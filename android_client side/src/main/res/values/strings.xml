@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Memory</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="register_title">CREATE ACCOUNT</string>
+    <string name="login_title">Login</string>
+    <string name="name">Username</string>
+    <string name="email">Email</string>
+    <string name="pwd">Password</string>
+    <string name="btnRegister">Register</string>
+    <string name="btnAddUser">Add User</string>
+    <string name="start">START</string>
+    <string name="highscore">HIGH SCORES</string>
+    <string name="login">LOGIN</string>
+    <string name="find">Find me a second player!</string>
+    <string name="new_user">New user? Register now for free:</string>
+    <string name="waiting">Waiting for a 2nd player</string>
+    <string name="plyr1">Player 1</string>
+    <string name="plyr2">Player 2</string>
+    <string name="new_game">New game"</string>
+    <string name="now_playing">Now playing"</string>
+</resources>

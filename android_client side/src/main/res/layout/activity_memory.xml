@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_memory"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:orientation="vertical"
+    tools:context="com.example.memory.MemoryActivity">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="#377bf9"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/logo"
+            android:id="@+id/imageView" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="#377bf9"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+
+         <Button
+            android:id="@+id/start_btn"
+            android:text="@string/start"
+            android:textColor="#f8ff1f"
+            android:textSize="30sp"
+            android:layout_width="210dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+             android:onClick="startGame"
+            />
+
+        <Button
+            android:id="@+id/highscore_btn"
+            android:text="@string/highscore"
+            android:textColor="#f8ff1f"
+            android:textSize="30sp"
+            android:layout_width="210dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonshape2"
+            android:shadowColor="#A8A8A8"
+            android:layout_marginTop="20dp"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:onClick="highScore"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
